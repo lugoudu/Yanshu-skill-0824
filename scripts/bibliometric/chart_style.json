@@ -1,0 +1,35 @@
+{
+  "colors": {
+    "primary": "#4A8FBF",
+    "secondary": "#7FB3C8",
+    "accent": "#D6995B",
+    "positive": "#7BA888",
+    "danger": "#CC7A6E",
+    "grid": "#E4E7E6",
+    "text": "#333B3F",
+    "muted": "#75807C",
+    "background": "#FFFFFF"
+  },
+  "palette": [
+    "#4A8FBF",
+    "#D6995B",
+    "#5FA8A3",
+    "#C58B95",
+    "#7E9FC9",
+    "#93B583",
+    "#D98E73",
+    "#6FB5C9",
+    "#A793C9",
+    "#7D93A8"
+  ],
+  "figsize": {
+    "trend": [11, 6],
+    "trend_detail": [11, 8],
+    "bar": [10, 7],
+    "donut": [10, 7],
+    "impact": [13, 6],
+    "network": [12, 8]
+  },
+  "dpi": 200,
+  "_comment": "清新明快但克制:中明度低饱和(晴空蓝主色,杏金/灰玫瑰/鼠尾草搭配),忌漆黑也忌荧光;PDF 版式仍为编辑部靛墨,图表与纸面形成明暗层次。"
+}
