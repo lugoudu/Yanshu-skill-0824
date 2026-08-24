@@ -1,4 +1,4 @@
-# Bibliometric Fusion（文献计量融合）
+# Yanshu（研述文献计量技能）
 
 [![version](https://img.shields.io/badge/version-1.0.0-blue)]()
 [![license](https://img.shields.io/badge/license-MIT-green)]()
@@ -8,7 +8,7 @@
 > Real OpenAlex data, reproducible bibliometrics, no agent required.
 > 与研述（Yize-Rd）agent **1.0.0 正式版对齐**的文献计量分析技能：给定任意研究领域，
 > 生成可复核的数据包（bundle.json + 审计 CSV）、丰富图表，以及被引最高且标题
-> 相关的**代表性文献**小节。核心检索与统计代码与研述 agent 字节级同源。
+> 相关的**代表性文献**小节。核心检索与统计方式与研述 agent 一致。
 
 ## 按你的工具安装（30 秒选一条路）
 
@@ -18,7 +18,6 @@
 | **Claude Code** 等 SKILL.md 兼容 Agent | `git clone` 本仓库，把 `plugin/skills/bibliometric-fusion` 整个目录放进你的技能目录（如 `~/.claude/skills/`） |
 | **Codex** / 其他能读写文件的 Agent | clone 后把 `plugin/skills/bibliometric-fusion/SKILL.md` 的绝对路径告诉你的 Agent（或写进 `AGENTS.md`），让它按文档调 CLI |
 | **Work Buddy / 龙虾类工具 / 没有任何 Agent** | 不需要 Agent！从 [Releases 最新版](https://github.com/lugoudu/Yanshu-skill-0824/releases/latest) 下载 zip，解压后直接跑命令行（见下方快速开始） |
-| **想读源码的基模大佬** | 检索决策看 `plugin/skills/bibliometric-fusion/scripts/agent_align.py`，接口契约看 `references/openalex-contract.md`，全部行为有离线测试钉住 |
 
 > **安全声明**：本包不含、不内置任何 API 密钥（OpenAlex key 由使用者自行申请配置）；
 > 唯一官方发布源是本仓库，请勿从其他转载渠道下载。
@@ -71,30 +70,7 @@ python3 $SKILL/scripts/fusion_run.py config   # 配置你自己的 OpenAlex API 
 
 ## 快速开始
 
-agent 同款一步流程（口径决策 → 采集 → 代表性文献 → 图表）：
-
-```bash
-python3 $SKILL/scripts/fusion_run.py auto \
-  --field "agentic reinforcement learning" --start 2023 --end 2025 \
-  --charts --out ./out
-```
-
-只看口径决策（不采集）：
-
-```bash
-python3 $SKILL/scripts/fusion_run.py decide \
-  --field "post-training large language models" --start 2023 --end 2025
-```
-
-从既有 bundle 提取代表性文献（零 API 消耗）：
-
-```bash
-python3 $SKILL/scripts/fusion_run.py representative --data ./out/bundle.json
-```
-
-全部命令：`config` / `info` / `resolve` / `decide` / `auto` / `fetch` /
-`report` / `chart` / `representative` / `crosscheck` / `list-charts`。
-用法细节见 [SKILL.md](plugin/skills/bibliometric-fusion/SKILL.md)。
+下载压缩包，把它上传给你使用的智能体（如workbuddy等），授予其必要权限，并要求它为你安装这个技能。
 
 ## 测试
 
