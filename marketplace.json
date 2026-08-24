@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "name": "yanshu-skill",
+  "description": "研述技能市场：与研述 agent 1.0.0 对齐的文献计量分析插件。",
+  "description_i18n": {
+    "en": "Yanshu skill marketplace: bibliometric analysis aligned with the Yize-Rd agent 1.0.0.",
+    "zh-CN": "研述技能市场：与研述 agent 1.0.0 对齐的文献计量分析插件。"
+  },
+  "owner": {
+    "name": "Yize-Rd Team",
+    "url": "https://github.com/lugoudu/Yanshu-skill-0824"
+  },
+  "plugins": [
+    {
+      "name": "bibliometric-fusion",
+      "source": "plugin",
+      "description": "研述同源文献计量分析：语料口径决策、代表性文献、可复核图表与审计数据包。",
+      "description_i18n": {
+        "en": "Bibliometric analysis: corpus-scope decision, representative works, verifiable charts and audit bundles.",
+        "zh-CN": "研述同源文献计量分析：语料口径决策、代表性文献、可复核图表与审计数据包。"
+      },
+      "version": "1.0.0",
+      "author": {
+        "name": "Yize-Rd Team",
+        "url": "https://github.com/lugoudu/Yanshu-skill-0824"
+      },
+      "category": "productivity",
+      "displayName": "Bibliometric Fusion",
+      "displayName_i18n": {
+        "zh-CN": "文献计量融合"
+      },
+      "icon": "https://raw.githubusercontent.com/lugoudu/Yanshu-skill-0824/main/plugin/assets/icon.png",
+      "keywords": [
+        "bibliometrics",
+        "openalex",
+        "research",
+        "citation-analysis",
+        "representative-works"
+      ],
+      "examplePrompts": [
+        "Do a bibliometric analysis of agentic reinforcement learning from 2023 to 2025"
+      ],
+      "examplePrompts_i18n": {
+        "zh-CN": [
+          "帮我做一份智能体强化学习 2023-2025 的文献计量分析",
+          "统计大语言模型在医疗诊断领域的研究热点和 Top 机构"
+        ]
+      }
+    }
+  ]
+}

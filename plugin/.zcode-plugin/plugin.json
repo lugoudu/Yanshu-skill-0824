@@ -1,0 +1,16 @@
+{
+  "name": "bibliometric-fusion",
+  "version": "1.0.0",
+  "description": "研述同源文献计量分析：OpenAlex 真实数据，语料口径决策（Topic 门控+多级瀑布）、代表性文献提取、可复核图表与审计数据包，与研述 agent 1.0.0 同源核心。",
+  "description_i18n": {
+    "en": "Bibliometric analysis with real OpenAlex data: corpus-scope decision (topic gate + waterfall), representative works, verifiable charts and audit bundles; aligned with the Yize-Rd agent 1.0.0.",
+    "zh-CN": "研述同源文献计量分析：OpenAlex 真实数据，语料口径决策（Topic 门控+多级瀑布）、代表性文献提取、可复核图表与审计数据包，与研述 agent 1.0.0 同源核心。"
+  },
+  "author": {
+    "name": "Yize-Rd Team",
+    "url": "https://github.com/lugoudu/Yanshu-skill-0824"
+  },
+  "license": "MIT",
+  "skills": "skills",
+  "commands": "commands"
+}
