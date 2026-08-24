@@ -14,7 +14,7 @@
 
 | 你在用什么 | 怎么装 |
 |---|---|
-| **Z Code** | 设置 → 插件管理 → 发现 → 右上角 **`+`** → 粘贴本仓库地址 → 安装 **Bibliometric Fusion**（含技能与 `/bib` 命令） |
+| **Z Code** （非常推荐试一试！） | 设置 → 插件管理 → 发现 → 右上角 **`+`** → 粘贴本仓库地址 → 安装 **Bibliometric Fusion**（含技能与 `/bib` 命令） |
 | **Claude Code** 等 SKILL.md 兼容 Agent | `git clone` 本仓库，把 `plugin/skills/bibliometric-fusion` 整个目录放进你的技能目录（如 `~/.claude/skills/`） |
 | **Codex** / 其他能读写文件的 Agent | clone 后把 `plugin/skills/bibliometric-fusion/SKILL.md` 的绝对路径告诉你的 Agent（或写进 `AGENTS.md`），让它按文档调 CLI |
 | **Work Buddy / 龙虾类工具 / 没有任何 Agent** | 不需要 Agent！从 [Releases 最新版](https://github.com/lugoudu/Yanshu-skill-0824/releases/latest) 下载 zip，解压后直接跑命令行（见下方快速开始） |
