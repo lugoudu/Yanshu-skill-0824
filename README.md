@@ -102,4 +102,4 @@ LLM 层只影响召回宽度，不影响口径正确性；差异边界详见
 
 ## 许可
 
-[MIT](LICENSE) © 2026 lugoudu
+[MIT](LICENSE) © 2026 Wang Nan
