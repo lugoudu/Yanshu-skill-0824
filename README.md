@@ -28,12 +28,14 @@
 
 ## 安装与配置
 
-### 作为 ZCode 插件（推荐）
+### 作为 ZCode 等编程智能体的插件或技能（推荐）
 
-ZCode 客户端 → 设置 → 插件管理 → 发现页 → 右上角 **`+`** → 粘贴本仓库
+以ZCode为例：ZCode 客户端 → 设置 → 插件管理 → 发现页 → 右上角 **`+`** → 粘贴本仓库
 地址 `https://github.com/lugoudu/Yanshu-skill-0824` → 安装
 **Bibliometric Fusion**。安装后自动获得技能 `bibliometric-fusion` 与
 `/bib` 命令。
+
+也可将压缩包发送给你偏好的编程智能体，赋予其必要权限并要求其完成安装。
 
 ### 独立命令行使用
 
