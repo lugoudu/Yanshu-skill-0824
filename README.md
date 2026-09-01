@@ -1,9 +1,9 @@
 # Yanshu（研述文献计量技能）
 
-[![version](https://img.shields.io/badge/version-1.0.0-blue)]()
-[![license](https://img.shields.io/badge/license-MIT-green)]()
-[![python](https://img.shields.io/badge/python-3.8%2B-blue)]()
-[![agent](https://img.shields.io/badge/works%20without%20an%20agent-yes-brightgreen)]()
+[![version](https://img.shields.io/github/v/release/lugoudu/Yanshu-skill-0824?label=version&color=blue)](https://github.com/lugoudu/Yanshu-skill-0824/releases)
+[![license](https://img.shields.io/github/license/lugoudu/Yanshu-skill-0824?color=green)](https://github.com/lugoudu/Yanshu-skill-0824/blob/main/LICENSE)
+[![python](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
+![agent](https://img.shields.io/badge/works%20without%20an%20agent-yes-brightgreen)
 
 > Real OpenAlex data, reproducible bibliometrics, no agent required.
 > 与研述（Yize-Rd）agent **1.0.0 正式版对齐**的文献计量分析技能：给定任意研究领域，
